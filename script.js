@@ -35,10 +35,10 @@ function timeBlockTracker() {
 //What the save button is activated with a "click", data is saved to the local storage 
 $(".saveBtn").on("click", function() {
 
-    var timeBlock = $(this).siblings(".hour").text();
-    var description = $(this).siblings(".workTask").val();
+    var time = $(this).siblings(".hour").text();
+    var task = $(this).siblings(".workTask").val();
 
-    localStorage.setItem(timeBlock, description);
+    localStorage.setItem(time, task);
 });
 
 //This function allows all saved data from the user to be recalled and reflected on the page
