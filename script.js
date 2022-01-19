@@ -32,7 +32,7 @@ function timeBlockTracker() {
     })
 };
 
-//What the save button is activated with a "click", data is saved to the local storage 
+//When the save button is activated with a "click", data is saved to the local storage 
 $(".saveBtn").on("click", function() {
 
     var time = $(this).siblings(".hour").text();
