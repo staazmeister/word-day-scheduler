@@ -36,7 +36,7 @@ function timeBlockTracker() {
 $(".saveBtn").on("click", function() {
 
     var time = $(this).siblings(".hour").text();
-    var task = $(this).siblings(".workTask").val();
+    var task = $(this).siblings(".description").val();
 
     localStorage.setItem(time, task);
 });
@@ -49,7 +49,7 @@ function workSchedule() {
         var currPlan = localStorage.getItem(blockTime);
 
         if (currPlan !== null) {
-            $(this).siblings(".workTask").val(currPlan);
+            $(this).siblings(".description").val(currPlan);
         }
     });
 }
