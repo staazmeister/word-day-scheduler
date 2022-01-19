@@ -30,9 +30,7 @@ THEN the saved events persist
 ```
 
 ## Why this project is important
-The purpose of this project is apply our newly learned skills in HTML, CSS, and JavaScript.
-
-Skills to be implemented on this project are:
+The purpose of this project is apply our newly learned skills listed below:
 -HTML
 -CSS
 -JavaScript
